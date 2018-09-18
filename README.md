@@ -1,8 +1,55 @@
-# Intelligent Automation Solutions
+# Intelligence Business Process Automation
 
+A business process is a set of tasks that will accomplish a specific organizational goal. These set of activities and tasks, once completed, will deliver a service or product to the client. The process involves clearly defined inputs and a single output.  These inputs are made up of all of the factors which contribute to the added value of an output, i.e., service or product.
 
 ### RPA
 
+RPA stands for robotics process automation, as the name implies process automation means automating the process with the intent of reducing human effort in continuous repetitive tasks.
+
+RPA is outshining nowadays due to its functionality, accuracy, efficiency, and robustness in the optimization of the business process. By automating the task using RPA company employee can be involved in more productive task rather than doing the work which requires minimum human energy and innovation.
+
+RPA is very capable, some of the sample use case are mentioned below:
+
+- when receiving data from multiple sources or applications.
+- when sending data to various points or applications.
+- rule-based or repetitive task based on policy.
+- when the process is simple but too lengthy to perform.
+- when the process is very complicated but short, and pronto human error.
+
+RPA is a structured automation process if we can create a flowchart or an algorithm of the business process than it can also be automated with the help of automation tool. RPA is a platform independent that means it can automate Desktop based application as well as browser-based application.
+If we talk about automation of business process, there is no doubt RPA on the top, but we can't take an instant decision in structured automation. However, we can do that with the help of Machine Learning and Induced Automation.
+
+There are multiple tools for RPA implementation like -
+- Automation Anywhere
+- Blue Prism
+- UI Path
+- Soft Motive
+- Pega
+- WorkFusion
+- NICE
+
+However, majorly the market is being captured by UI Path, Automation Anywhere and Blue Prism. Blue Prism is a Desktop based tool and is very good in automating back-end applications on the other hand UI Path is a robust tool with a lot of inbuilt capabilities.
+
+In terms of flexibility, UI Path takes the advantage, but if we talk about security Blue Prism is best in the market. Most of the RPA tools are based on .Net architecture. In Blue Prism we can use C#, J#, and Visual Basic while in UI path we have to use Visual Basic.
+
+ UI Path consist of  "three " major parts:
+
+  - **Studio**: The studio is the place where we can do the development and customize our code as per business requirements.
+
+  - **Robot**: The robot is used to run the code on specific machines while which code has to run on which machine at what time is all done by UI Path
+
+  - **Orchestration**: UI Path orchestrator is a web-based application, i.e., multiple bots(machines) have to be connected to the single Orchestrator.
+
+
+RPA means that we are automating the process with the help of using pseudocode,  flowchart, sequence,  we are not concerned about the code which tool generates itself at the backend. However to gain expertise in RPA its best to have knowledge of the following topics -
+
+- HTML
+- XML
+- Database
+- Web services
+- OOPs
+
+RPA is like the hands and feet of the human body, capable of doing things but can't make decisions. To make the intelligent choice, we require a brain, and this is where Artificial Intelligence comes in the picture. With the help of machine learning and deep learning, we can create intelligent bots which can act like a human and take a decision on your behalf.
 
 ### Machine learning
 
@@ -10,14 +57,28 @@ Machine Learning is a set of algorithms that read data, learn from it, and then 
 
 Most machine learning methods often categorized as supervised learning or unsupervised learning, but now there is two more categories know as Semi-supervised and reinforcement learning.
 
-*   Supervised machine learning algorithms work with labeled data and can be used to predict future events based on that data. During training, the machine learning algorithm produces an inferred function to make predictions about the target value. After training, the system is capable enough to provide targets for any new input.
+*   **Supervised learning** algorithms work with labeled data and can be used to predict future events based on that data. During training, the machine learning algorithm produces an inferred function to make predictions about the target value. After training, the system is capable enough to provide targets for any new input.
 
-*   Unsupervised machine learning algorithms are used when the information used to train is not labeled. It infers a function to describe a hidden structure from unlabeled data. The algorithm doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.
+*   **Unsupervised learning** algorithms are used when the information used to train is not labeled. It infers a function to describe a hidden structure from unlabeled data. The algorithm doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.
 
 
 ### Cognitive Services
 
+- What is cognitive service?
+- What cognitive service Ui Path provide?
 
+### RPA and Python
 
+With the increasing market for RPA, every RPA company is starving for developing an intelligent solution for there customers, and to do so, they need to design the bain of the bot. As an obvious choice for the integration companies decided to go with Python an open source programing language which supports multiple machine learning/deep learning libraries.
 
-### Best Practice
+Ui Path provides integration with Python `Python scope`  which can be used to integrate any python logic with UI Python bot. Integration is straightforward given that we follow some simple standards during our python code and Ui Path definition.
+
+> Note: As of now Ui Path (v2018.2.3) support Python 3.x (32-bit).
+
+  - Python
+    - For easy installation of Python use [Anaconda]() 32-bit version, the reason being it conda package manager as well as all required python libraries.
+    - While writing code don't use the absolute path of the file in Python code for other required dependencies.
+    - Don't use single quotes `'` in Python code.
+
+- Ui Path
+    - To integrate Python/Conda use root path of the installation folder.
