@@ -63,6 +63,9 @@ Most machine learning methods often categorized as supervised learning or unsupe
 *   **Unsupervised learning** algorithms are used when the information used to train is not labelled. It infers a function to describe a hidden structure from unlabelled data. The algorithm doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabelled data.
 
 
+![ML](image2.png)
+
+
 ### Cognitive Services
 
 - What is cognitive service?
