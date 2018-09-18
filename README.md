@@ -4,7 +4,7 @@ A business process is a set of tasks that will accomplish a specific organizatio
 
 ![BP](image1.png)
 
-### RPA
+### Robotics Process Automation
 
 Robotic Process Automation (RPA), as the name implies automates the process with the intent of reducing human effort in continuous repetitive tasks.
 
