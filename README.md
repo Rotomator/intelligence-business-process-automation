@@ -2,7 +2,7 @@
 
 A business process is a set of tasks that will accomplish a specific organizational goal. These set of activities and tasks, once completed, will deliver a service or product to the client. The process involves clearly defined inputs and a single output.  These inputs are made up of all of the factors which contribute to the added value of an output, i.e., service or product.
 
-![BP](image1.png)
+![BP](image.png)
 
 ### Robotics Process Automation
 
