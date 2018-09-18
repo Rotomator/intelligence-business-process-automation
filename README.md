@@ -68,21 +68,31 @@ Most machine learning methods often categorized as supervised learning or unsupe
 
 ### Cognitive Services
 
-- What is cognitive service?
-- What cognitive service Ui Path provide?
+Cognitive Services are a purpose-built collection of AI algorithms and application programming interfaces (APIs) to help developers add AI capabilities to websites, apps and AI agents.
+
+Cognitive Services allow enterprises lacking the necessary AI research staff, infrastructure and budget to select AI tools for their needs.
+
+Companies which provide cognitive services:
+  - Microsoft
+  - Google
+  - IBM
+  - Amazon
+  - Stanford
 
 ### RPA and Python
 
 With the increasing market for RPA, every RPA company is starving for developing an intelligent solution for their customers, and to do so, they need to design the brain of the bot. As an obvious choice for the integration companies decided to go with Python an open source programming language which supports multiple machine learning/deep learning libraries.
 
-Ui Path provides integration with Python `Python scope`  which can be used to integrate any python logic with UI Python bot. Integration is straightforward given that we follow some simple standards during our python code and UI Path definition.
+Ui Path provides integration with Python `Python Scope`  which can be used to integrate any python logic with UI Python bot. Integration is straightforward given that we follow some simple standards during our python code and UI Path definition.
 
 > Note: As of now Ui Path (v2018.2.3) support Python 3.x (32-bit).
 
   - Python
     - For easy installation of Python use [Anaconda]() 32-bit version, the reason being it conda package manager as well as all required python libraries.
-    - While writing code, don't use the absolute path of the file in Python code for reading/ writing.
-    - Don't use single quotes `'` in Python code.
+    - While writing code, don't use the absolute path of the file in Python code for reading/writing.
+    - Only use double quotes `"` in Python code.
 
 - Ui Path
     - To integrate Python/Conda use root path of the installation folder.
+    - Define variable in `Python Scope`.
+    - Define logic in Python method and use `Invoke Python Method` activity to use that function.
