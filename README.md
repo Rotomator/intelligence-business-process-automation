@@ -94,5 +94,11 @@ Ui Path provides integration with Python `Python Scope`  which can be used to in
 
 - Ui Path
     - To integrate Python/Conda use root path of the installation folder.
+    - Activities supported by Ui Path:
+        *  `Python Scope` - A container which provides a scope for Python activities.
+        *  `Invoke Python Method` - Helps you run a specified method from a Python script directly in a workflow.
+        *  `Run Python Script` -  Enables you to execute Python code. You can input the code directly in the activity or provide a file path for it.
+        *  `Load Python Object` - Converts your Python code to a PythonObject variable.
+        *  `Get Python Object` -  Retrieves the value inside a Python object as a .NET type to be used in a workflow.
     - Define variable in `Python Scope`.
-    - Define logic in Python method and use `Invoke Python Method` activity to use that function.
+    - Define logic in external Python script and use `Invoke Python Method` activity to use that function.
